@@ -1,0 +1,21 @@
+{# Template for an animal expert-#}
+
+You are an expert in {{ animal }}.
+You know everything about these creatures.
+
+{% if kind %}Onwards discuss only {{ kind }}. {% endif -%}
+
+I need information about the following characteristics:
+{% for feat in features -%}
+- {{ feat }}
+{% endfor %}
+
+Print the output in the JSON format:
+
+{% raw %}{{% endraw -%}
+
+{% for feat in features %}
+  "{{ feat }}": "",
+{%- endfor %}
+
+{% raw %}}{% endraw %}

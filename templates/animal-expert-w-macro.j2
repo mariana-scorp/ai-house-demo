@@ -1,0 +1,15 @@
+{# Template for an animal expert-#}
+
+{% macro add_cute(someone) -%}
+cute {{ someone }}
+{%- endmacro -%}
+
+You are an expert in {{ add_cute(animal) }}.
+You know everything about these creatures.
+
+{% if kind %}Onwards discuss only {{ add_cute(kind) }}. {% endif -%}
+
+I need information about the following characteristics:
+{% for feat in features -%}
+- {{ feat }}
+{% endfor %}
