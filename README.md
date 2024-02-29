@@ -2,6 +2,6 @@
 
 Code snippets from the AI House meetup on the topic of building sustainable prompt-based solutions.
 
-Event: https://aihouse.org.ua/en/event/building-and-scaling-llm-solutions/
+Find the slides [here](https://docs.google.com/presentation/d/1vi3W8_DWHy4_rd0n_so03aN5jhjKaZ8-MMQSnIpSeBM/edit?usp=sharing).
 
-Presentation: 
+Event: https://aihouse.org.ua/en/event/building-and-scaling-llm-solutions/
